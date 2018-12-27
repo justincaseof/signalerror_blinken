@@ -1,0 +1,16 @@
+laststart = Sat Jul 27 19:42:34 CEST 2013
+vu.de.signalerror.blinken.datasource.simple.RandomPixelChangeDataSourceImpl.ui.pos_x = 143
+vu.de.signalerror.blinken.datasource.simple.RandomPixelChangeDataSourceImpl.ui.pos_y = 398
+vu.de.signalerror.blinken.datasource.simple.StrobingDataSourceImpl.ui.pos_x = 100
+vu.de.signalerror.blinken.datasource.simple.StrobingDataSourceImpl.ui.pos_y = 100
+vu.de.signalerror.blinken.datasource.simple.MatrixDataSourceImpl.ui.pos_x = 100
+vu.de.signalerror.blinken.datasource.simple.MatrixDataSourceImpl.ui.pos_y = 100
+vu.de.signalerror.blinken.datasrc.blmfile.ui.FilePlayerUI.ui.pos_x = 100
+vu.de.signalerror.blinken.datasrc.blmfile.ui.FilePlayerUI.ui.pos_y = 100
+vu.de.signalerror.blinken.viewer.sim.impl.TextFieldViewerImpl.ui.pos_x = 1430
+vu.de.signalerror.blinken.viewer.sim.impl.TextFieldViewerImpl.ui.pos_y = 965
+vu.de.signalerror.blinken.viewer.sim.impl.AmpelLichtViewerImpl.ui.pos_x = 746
+vu.de.signalerror.blinken.viewer.sim.impl.AmpelLichtViewerImpl.ui.pos_y = 182
+vu.de.signalerror.datasource.equalizer.ui.EqualizerUI.ui.pos_x = 100
+vu.de.signalerror.datasource.equalizer.ui.EqualizerUI.ui.pos_y = 100
+vu.de.signalerror.blinken.datasrc.blmfile.ui.FilePlayerUI.ui.filechooser.lastlocation = E:\\DEVELOPMENT\\workspace_j2ee\\vu.de.signalerror.blinken.datasource.blmfile\\162-blms

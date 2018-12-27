@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Signalerror
+Bundle-SymbolicName: vu.de.signalerror
+Bundle-Version: 1.0.0
+Import-Package: com.ubigrate.glasnost.adapter.sap.test,
+ com.ubigrate.glasnost.framework.launchd,
+ com.ubigrate.glasnost.framework.osgi.config,
+ com.ubigrate.glasnost.framework.osgi.config.impl,
+ com.ubigrate.glasnost.framework.log,
+ org.apache.log4j,
+ org.osgi.service.component
+Service-Component: OSGI-INF/SignalErrorApplication.xml

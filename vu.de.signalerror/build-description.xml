@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-description
+	xmlns="http://www.ubigrate.com/schemas/build-description/1.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.ubigrate.com/schemas/build-description/1.0 ../com.ubigrate.glasnost.build/resources/build/BuildDescription.xsd "
+	responsible="tobias.nebel@ubigrate.com"
+	category="COMPOSITION"
+	ignore="true"
+>
+	<application platforms="windows"/>
+
+	<bundle/>
+	
+	<depends>
+		<include type="compile">com.ubigrate.glasnost.adapter.sap</include>
+		<include type="compile">com.ubigrate.glasnost.framework</include>
+		<include type="compile">com.ubigrate.glasnost.framework.launchd</include>
+		<include type="compile">com.ubigrate.glasnost.framework.osgi</include>
+		
+		<include type="deploy">com.ubigrate.glasnost.framework.monitoring</include>
+		
+	</depends>
+
+	<description name="SignalErrorApplication">
+		Dummy.
+	</description>
+
+	<java dirs="src"/>
+	
+	<javadoc sourcepath="src"/>
+	
+	<setup platforms="windows" locales="deu">
+		
+	</setup>
+
+</build-description>

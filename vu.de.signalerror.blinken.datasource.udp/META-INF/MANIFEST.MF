@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UDP datasource
+Bundle-SymbolicName: vu.de.signalerror.blinken.datasource.udp
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.commons.configuration,
+ org.apache.log4j,
+ org.osgi.service.component,
+ vu.de.signalerror.base,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl
+Service-Component: OSGI-INF/UDPreceiveDataSource.xml

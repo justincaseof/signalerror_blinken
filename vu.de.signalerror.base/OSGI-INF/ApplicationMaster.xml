@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<scr:component 
+	xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" 
+	name="vu.de.signalerror.base.ApplicationMaster" 
+	immediate="true">
+	<implementation class="vu.de.signalerror.base.ApplicationMaster"/>
+	<service>
+		<provide interface="vu.de.signalerror.base.ApplicationMaster"/>
+	</service>
+	<reference name="LogReaderService"
+		interface="org.osgi.service.log.LogReaderService"
+		cardinality="0..1"
+		bind="setLogReaderService"
+		unbind="unsetLogReaderService"
+		policy="dynamic"/>
+</scr:component>

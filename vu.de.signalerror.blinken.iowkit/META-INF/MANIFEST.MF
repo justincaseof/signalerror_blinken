@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Iowkit Plug-in
+Bundle-SymbolicName: vu.de.signalerror.blinken.iowkit
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/IowKitBlinkenViewer.xml
+Bundle-NativeCode: lib/iowkit.dll ; processor = x86 ; osname  = Windows NT,
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows 98,
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows 95, 
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows XP, 
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows 2000,
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows 2003,
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows Vista, 
+ /lib/iowkit.dll ; processor = x86 ; osname = Windows 7, 
+ *
+Import-Package: org.apache.log4j,
+ vu.de.signalerror.base.event,
+ vu.de.signalerror.base.event.impl,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl

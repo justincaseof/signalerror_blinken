@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Strobo
+Bundle-SymbolicName: vu.de.signalerror.blinken.datasource.simple
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.commons.configuration,
+ org.apache.log4j,
+ org.osgi.service.component,
+ vu.de.signalerror.base,
+ vu.de.signalerror.base.event,
+ vu.de.signalerror.base.event.impl,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl
+Service-Component: OSGI-INF/RandomPixelChangeDataSource.xml,
+ OSGI-INF/StrobingDataSource.xml,
+ OSGI-INF/MatrixDataSource.xml

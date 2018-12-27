@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sim
+Bundle-SymbolicName: vu.de.signalerror.blinken.viewer.sim
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/TextFieldViewer.xml,
+ OSGI-INF/AmpelLichtViewer.xml
+Import-Package: org.apache.commons.configuration,
+ org.osgi.framework,
+ org.osgi.service.component,
+ vu.de.signalerror.base,
+ vu.de.signalerror.base.event,
+ vu.de.signalerror.base.event.impl,
+ vu.de.signalerror.blinken

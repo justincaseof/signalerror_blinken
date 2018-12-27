@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Raspberry Plug-in
+Bundle-SymbolicName: vu.de.signalerror.blinken.raspberry
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/RaspberryBlinkenViewer.xml
+Import-Package: org.apache.log4j,
+ vu.de.signalerror.base.event,
+ vu.de.signalerror.base.event.impl,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl

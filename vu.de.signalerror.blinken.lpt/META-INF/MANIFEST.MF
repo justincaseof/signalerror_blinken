@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Lpt Plug-in
+Bundle-SymbolicName: vu.de.signalerror.blinken.lpt
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.osgi.service.event,
+ vu.de.signalerror.base,
+ vu.de.signalerror.base.data,
+ vu.de.signalerror.base.event,
+ vu.de.signalerror.base.event.impl,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl

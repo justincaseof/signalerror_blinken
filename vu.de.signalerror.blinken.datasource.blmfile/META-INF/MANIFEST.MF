@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Blmfile
+Bundle-SymbolicName: vu.de.signalerror.blinken.datasource.blmfile
+Bundle-Version: 1.0.0
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.apache.commons.configuration,
+ org.apache.log4j,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.component,
+ vu.de.signalerror.base,
+ vu.de.signalerror.blinken,
+ vu.de.signalerror.blinken.impl
+Service-Component: OSGI-INF/BlmFileDataSource.xml

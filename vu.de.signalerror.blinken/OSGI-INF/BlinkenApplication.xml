@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<scr:component 
+	xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" 
+	name="vu.de.signalerror.blinken.BlinkenApplication" 
+	immediate="true">
+	<implementation class="vu.de.signalerror.blinken.BlinkenApplication"/>
+	<service>
+		<provide interface="vu.de.signalerror.blinken.BlinkenApplication"/>
+	</service>
+ 	<reference name="EventAdmin" 
+ 		cardinality="1..1" 
+ 		interface="org.osgi.service.event.EventAdmin" 
+ 		policy="static"/>
+ 	<reference name="ApplicationMaster" 
+ 		interface="vu.de.signalerror.base.ApplicationMaster" 
+ 		cardinality="1..1" 
+ 		policy="dynamic"/>
+ 	<reference name="BlinkenViewer" 
+ 		interface="vu.de.signalerror.blinken.BlinkenViewer" 
+ 		bind="addBlinkenViewer"
+ 		unbind="removeBlinkenViewer" 
+ 		cardinality="0..n" 
+ 		policy="dynamic"/>
+ 	<reference name="BlinkenViewerDataSource" 
+ 		interface="vu.de.signalerror.blinken.BlinkenViewerDataSource" 
+ 		bind="addBlinkenViewerDataSource"
+ 		unbind="removeBlinkenViewerDataSource" 
+ 		cardinality="0..n" 
+ 		policy="dynamic"/>
+</scr:component>
